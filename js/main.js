@@ -1,55 +1,49 @@
 var insects = [
   {
     name: 'Ant Nest Beetle',
-    image: 'ant-nest-beetle.jpg',
+    img: 'ant-nest-beetle.jpg',
     family: 'Carabidae',
-    min size: '6',
-    max size: '20',
-    eats insects: 'Yes',
-    eats dung: 'No',
-    eats plants: 'No'
+    size: ['6', '20'],
+    food: {
+      eatsInsects: true,
+      eatsDung: false,
+      eatsPlants: false
+    }
   },
   {
-    name: '',
-    image: '',
-    family: '',
-    min size: '',
-    max size: '',
-    eats insects: '',
-    eats dung: '',
-    eats plants: ''
+    name: 'Dung Beetle',
+    img: 'dung-beetle.jpg',
+    family: 'Scarabidae',
+    size: ['20', '30'],
+    food: {
+      eatsInsects: false,
+      eatsDung: true,
+      eatsPlants: false
+    }
   },
   {
-    name: '',
-    image: '',
-    family: '',
-    min size: '',
-    max size: '',
-    eats insects: '',
-    eats dung: '',
-    eats plants: ''
+    name: 'Stag Beetle',
+    img: 'stag-beetle.jpg',
+    family: 'Lucanidae',
+    size: ['5', '120'],
+    food: {
+      eatsInsects: false,
+      eatsDung: false,
+      eatsPlants: true
+    }
   },
   {
-    name: '',
-    image: '',
-    family: '',
-    min size: '',
-    max size: '',
-    eats insects: '',
-    eats dung: '',
-    eats plants: ''
-  },
-  {
-    name: '',
-    image: '',
-    family: '',
-    min size: '',
-    max size: '',
-    eats insects: '',
-    eats dung: '',
-    eats plants: ''
-  },
-]
+    name: 'Tortoise Beetle',
+    img: 'tortoise-beetle.jpg',
+    family: 'Cassidinae',
+    size: ['1', '18'],
+    food: {
+      eatsInsects: false,
+      eatsDung: false,
+      eatsPlants: true
+    }
+  }
+];
 
 
 // ##########################################################
