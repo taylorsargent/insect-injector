@@ -1,4 +1,55 @@
-// Create your variable here, name it `insects`
+var insects = [
+  {
+    name: 'Ant Nest Beetle',
+    image: 'ant-nest-beetle.jpg',
+    family: 'Carabidae',
+    min size: '6',
+    max size: '20',
+    eats insects: 'Yes',
+    eats dung: 'No',
+    eats plants: 'No'
+  },
+  {
+    name: '',
+    image: '',
+    family: '',
+    min size: '',
+    max size: '',
+    eats insects: '',
+    eats dung: '',
+    eats plants: ''
+  },
+  {
+    name: '',
+    image: '',
+    family: '',
+    min size: '',
+    max size: '',
+    eats insects: '',
+    eats dung: '',
+    eats plants: ''
+  },
+  {
+    name: '',
+    image: '',
+    family: '',
+    min size: '',
+    max size: '',
+    eats insects: '',
+    eats dung: '',
+    eats plants: ''
+  },
+  {
+    name: '',
+    image: '',
+    family: '',
+    min size: '',
+    max size: '',
+    eats insects: '',
+    eats dung: '',
+    eats plants: ''
+  },
+]
 
 
 // ##########################################################
